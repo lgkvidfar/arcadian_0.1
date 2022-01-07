@@ -1,0 +1,12 @@
+POST http://localhost:3003/api/users
+Content-Type: application/json
+
+{
+    "username": "lukas",
+    "password": "nioka20",
+    "name": "lukas",
+    "email": "lukas@gmail.com"
+}
+
+###
+DELETE http://localhost:3003/api/users/61d7ecc9e3b7d1c07385cbe8
